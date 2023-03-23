@@ -40,7 +40,7 @@ return [
 
             'options' => [
                 LDAP_OPT_X_TLS_CERTFILE=> env('LDAP_DEFAULT_OPT_X_TLS_CERTFILE'),
-                LDAP_OPT_X_TLS_KEYFILE=> env('LDAP_DEFAULT_OPT_X_TLS_KEYFILE'),
+                LDAP_OPT_X_TLS_KEYFILE=> env('LDAP_DEFAULT_OPT_X_TLS_KEYFILE')
             ]
         ],
 
