@@ -19,7 +19,7 @@ services:
       - pmbummat
 
   nginx:
-    image: registry.danova.id/new-pmb-development/pmb-ummat/nginxpmb:0.0.8-ldap
+    image: registry.danova.id/new-pmb-development/pmb-ummat/nginxpmb:0.0.9-ldap
     working_dir: /var/www/html
     container_name: nginxpmb
     # user: "1000:1000"
