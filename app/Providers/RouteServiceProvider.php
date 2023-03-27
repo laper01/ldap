@@ -24,6 +24,11 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+
+        if (env('SSL')) {
+            resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
+        }
+
         $this->configureRateLimiting();
 
         $this->routes(function () {
