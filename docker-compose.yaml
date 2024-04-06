@@ -40,15 +40,4 @@ volumes:
   datasave:
   appvolume:
   webvolume:
-    #   driver_opts:
-    #     type: none
-    #     device: ${PWD}
-    #     o: bind
-    # databasevol:
-    #   driver_opts:
-    #     type: none
-    #     device: ${PWD}/docker-compose/mysql
-    #     o: bind
-    # datasave:
 
-    # storage/app/public/mahasiswa/gelombang20221/umum1/test123456789123456721/KTPtest21103SdHGVc3.jpg
